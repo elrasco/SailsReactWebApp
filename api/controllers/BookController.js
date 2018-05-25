@@ -3,8 +3,6 @@ import UserController from "./UserController";
 
 const { checkValidUser } = UserController;
 
-const { RentedBook, Book, Category, Notification } = database;
-
 const BookController = {
   /**
    * @description - Admin add new book

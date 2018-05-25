@@ -48,7 +48,12 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
+    //url: "postgresql://hellobooks:password@localhost:5432/hellobooks",
     adapter: "sails-postgresql",
-    url: "postgresql://hellobooks:password@localhost:5432/hellobooks"
+    host: "localhost",
+    port: 5432,
+    user: "hellobooks",
+    password: "password",
+    database: "hellobooks"
   }
 };
